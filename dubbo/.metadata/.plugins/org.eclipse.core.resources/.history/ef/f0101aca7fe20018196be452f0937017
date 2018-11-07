@@ -1,0 +1,5 @@
+package com.toov5.dubbo.consumer;
+
+public class OderToMemberTest {
+
+}

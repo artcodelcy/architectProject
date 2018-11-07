@@ -1,0 +1,5 @@
+package com.toov5.member.service.impl;
+
+public class AppMember {
+
+}

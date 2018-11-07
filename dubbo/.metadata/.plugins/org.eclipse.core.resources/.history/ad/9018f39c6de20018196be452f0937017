@@ -1,0 +1,5 @@
+package com.toov5.api.member;
+
+public interface MemberService {
+   public String getUser(Long userId);
+}

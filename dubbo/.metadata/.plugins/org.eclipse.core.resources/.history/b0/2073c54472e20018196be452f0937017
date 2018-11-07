@@ -1,0 +1,14 @@
+package com.toov5.member.service.impl;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AppMember {
+   
+	public static void main(String[] args) {
+		
+	ClassPathXmlApplicationContext applicationContext  = new ClassPathXmlApplicationContext("dubbo-provider.xml");	
+	applicationContext.start();  //发布服务直接
+	System.out.println("会员启动成功...");	
+	}
+	 
+}

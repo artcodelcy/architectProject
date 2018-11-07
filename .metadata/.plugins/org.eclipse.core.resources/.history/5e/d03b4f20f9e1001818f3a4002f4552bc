@@ -1,0 +1,22 @@
+package com.controller;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@SpringBootApplication
+@Controller
+public class IndexController {
+  
+	 @RequestMapping("/")
+	 public String index() {
+		 System.out.println("index");
+		 return "index.jsp";
+	 }
+	 
+	  public static void main(String[] args) {
+		SpringApplication.run(IndexController.class, args);
+	}
+	 
+}

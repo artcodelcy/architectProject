@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.toov5.api.member&apos; to &apos;com.toov5.api.member.service&apos;&#x0D;&#x0A;- Original project: &apos;toov5-member-public-dubbo-api&apos;&#x0D;&#x0A;- Original element: &apos;toov5-member-public-dubbo-api/src/main/java/com.toov5.api.member&apos;&#x0D;&#x0A;- Renamed element: &apos;toov5-member-public-dubbo-api/src/main/java/com.toov5.api.member.service&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.toov5.api.member&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.toov5.api.member" name="com.toov5.api.member.service" qualified="false" references="true" stamp="1541582104807" textual="false" version="1.0"/>
+</session>

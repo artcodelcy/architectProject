@@ -1,0 +1,14 @@
+package com.toov5.dubbo.consumer;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.toov5.api.member.service.MemberService;
+
+public class OderToMemberTest {
+   public static void main(String[] args) {
+	
+	  ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("dubbo-consumer.xml");
+	  MemberService memberService =  applicationContext.getBean(MemberService.class);
+	  memberService.getUser(12L);	   
+}
+}
