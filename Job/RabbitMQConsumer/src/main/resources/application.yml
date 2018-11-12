@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+  ####连接地址
+    host: 192.168.91.6
+   ####端口号   
+    port: 5672
+   ####账号 
+    username: admin
+   ####密码  
+    password: admin
+   ### 地址  主机独立的virtualhost
+    virtual-host: /admin_toov5
+
+  
